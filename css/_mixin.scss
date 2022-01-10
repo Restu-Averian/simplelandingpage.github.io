@@ -1,0 +1,330 @@
+@mixin diheader {
+    position: relative;
+    left: 150px;
+
+}
+
+@mixin btn {
+    border: none;
+    background-color: $blue_04;
+    color: white;
+    padding: 15px 48px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Gilroy-Regular";
+}
+
+@mixin box {
+    width: 400px;
+    padding: 40px;
+    margin-bottom: 10px;
+    box-shadow: 5px 20px 50px 0px rgba($color:#1070B1, $alpha:0.2);
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    .bring-tek {
+        margin: auto;
+        max-width: 100%;
+        // width: 250px;
+        transform: translate(45px, -70px);
+    }
+
+    .makenbuild {
+        margin: auto;
+        max-width: 100%;
+        // width: 250px;
+        transform: translateX(50px);
+        padding: 0px 0 56px;
+    }
+
+    .title-box {
+        color: $blue_01;
+        font-size: 20px;
+        line-height: 36px;
+        letter-spacing: 0.05em;
+        font-family: "Gilroy-Medium";
+    }
+
+    .body-box {
+        color: rgba($color:$blue_01, $alpha:0.6);
+        font-size: 16px;
+        margin-top: 16px;
+        line-height: 26px;
+        letter-spacing: 0.05em;
+        font-family: "Gilroy-Regular";
+    }
+
+    .link-box {
+        margin-top: 32px;
+        display: flex;
+        align-content: center;
+        justify-content: flex-start;
+        transition: all 0.5s ease;
+
+        a {
+            font-size: 20px;
+
+            color: $blue_04;
+
+            span {
+                margin-left: 10px;
+                transition: all 0.5s ease;
+            }
+
+            &:hover {
+
+                span {
+                    margin-left: 40px;
+                    transition: all 0.5s ease;
+                }
+            }
+        }
+
+    }
+}
+
+@mixin box-responsive {
+    width: 900px;
+    padding: 40px;
+    height: 2000px;
+    box-shadow: 5px 20px 50px 0px rgba($color:#1070B1, $alpha:0.2);
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    .bring-tek {
+        margin: auto;
+        // max-width: 100%;
+        // width: 250px;
+        position: relative;
+
+
+        left: 20%;
+    }
+
+    .makenbuild {
+        margin: auto;
+        max-width: 100%;
+        // width: 250px;
+        position: relative;
+        left: 10%;
+        // transform: translateX(150px);
+        padding: 10px 0 86px;
+
+
+    }
+
+    .title-box {
+        color: $blue_01;
+        letter-spacing: 0.05em;
+        font-size: 45px;
+        line-height: normal;
+        margin-bottom: 30px;
+        font-family: "Gilroy-Medium";
+    }
+
+    .body-box {
+        color: rgba($color:$blue_01, $alpha:0.6);
+        margin-top: 16px;
+        letter-spacing: 0.05em;
+        font-family: "Gilroy-Regular";
+        font-size: 30px;
+        line-height: normal;
+        margin-bottom: 80px;
+    }
+
+    .link-box {
+        margin-top: 32px;
+        margin-bottom: 38px;
+        display: flex;
+        align-content: center;
+        justify-content: flex-start;
+        transition: all 0.5s ease;
+
+        a {
+            font-size: 40px;
+            color: $blue_04;
+            margin: auto;
+
+            span {
+                margin-left: 10px;
+                transition: all 0.5s ease;
+            }
+
+            &:hover {
+
+                span {
+                    margin-left: 40px;
+                    transition: all 0.5s ease;
+                }
+            }
+        }
+
+    }
+}
+
+@mixin title_section {
+
+    color: $blue_02;
+    font-size: 36px;
+    width: 400px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    font-family: "Gilroy-SemiBold";
+
+}
+
+@mixin title_section_responsive {
+
+    color: $blue_02;
+    font-size: 60px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    line-height: normal;
+    letter-spacing: 0.05em;
+    font-family: "Gilroy-SemiBold";
+
+}
+
+@mixin title_section_client {
+
+    color: white;
+    font-size: 36px;
+    width: 400px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    font-family: "Gilroy-SemiBold";
+
+}
+
+@mixin title_section_client_responsive {
+
+    color: white;
+    width: 100%;
+    font-size: 60px;
+    line-height: normal;
+    text-align: center;
+    letter-spacing: 0.05em;
+    font-family: "Gilroy-SemiBold";
+    margin-bottom: 20px;
+
+}
+
+@mixin sub_title {
+    width: 540px;
+    color: rgba($color:white, $alpha:0.6);
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "Gilroy-Regular";
+}
+
+
+@mixin box-our {
+
+    height: 400px;
+    border-radius: 10px;
+
+    .parent {
+        color: white;
+        font-family: "Gilroy-Regular";
+        font-size: 28px;
+    }
+
+    .bocil {
+        color: rgba($color: white, $alpha: 0.8);
+        font-family: "Gilroy-UltraLight";
+        font-size: 16px;
+    }
+}
+
+@mixin box-our-responsive {
+
+    height: 450px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .parent {
+        color: white;
+        font-family: "Gilroy-Regular";
+        font-size: 40px;
+    }
+
+    .bocil {
+        color: rgba($color: white, $alpha: 0.8);
+        font-family: "Gilroy-UltraLight";
+        font-size: 24px;
+    }
+}
+
+@mixin client {
+    width: 25%;
+    text-align: center;
+    padding: 50px;
+    font-size: 18px;
+    color: white;
+    font-family: "Gilroy-Regular";
+
+    &:hover {
+        background-color: rgba($color: $blue_03, $alpha: 0.5);
+        transition: all 0.4s ease;
+
+        img,
+        p {
+            opacity: 0.2;
+            transition: all 0.4s ease;
+
+        }
+
+        .response {
+            display: block;
+            position: relative;
+            top: 50px;
+            font-style: italic;
+            z-index: 999;
+        }
+    }
+
+}
+
+@mixin client_responsive {
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+    font-size: 18px;
+    color: white;
+    font-family: "Gilroy-Regular";
+    // transition: all 0.5s ease;
+
+    img {
+        width: 180px;
+        margin-bottom: 24px;
+    }
+
+    p {
+        font-size: 30px;
+    }
+
+    &:hover {
+        background-color: rgba($color: $blue_03, $alpha: 0.4);
+        transition: all 0.5s ease;
+
+        img,
+        p {
+            opacity: 0.2;
+            // transition: all 0.5s ease;
+
+        }
+
+        .response {
+            display: block;
+            font-style: italic;
+            z-index: 999;
+            position: relative;
+            top: 50px;
+            font-size: 30px;
+        }
+    }
+
+}

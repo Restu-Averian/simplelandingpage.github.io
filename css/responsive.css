@@ -1,0 +1,853 @@
+@font-face {
+  font-family: "Galien-Regular";
+  src: url("/font/Galien/TTF/Galien-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Galien-Poster";
+  src: url("/font/Galien/TTF/Galien-Poster.ttf");
+}
+
+@font-face {
+  font-family: "Galien-Light";
+  src: url("/font/Galien/TTF/Galien-Light.ttf");
+}
+
+@font-face {
+  font-family: "Galien-Book";
+  src: url("/font/Galien/TTF/Galien-Book.ttf");
+}
+
+@font-face {
+  font-family: "Galien-Bold";
+  src: url("/font/Galien/TTF/Galien-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Black";
+  src: url("/font/gilroy/Gilroy-Black.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-BlackItalic";
+  src: url("/font/gilroy/Gilroy-BlackItalic.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("/font/gilroy/Gilroy-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-BoldItalic";
+  src: url("/font/gilroy/Gilroy-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("/font/gilroy/Gilroy-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("/font/gilroy/Gilroy-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url("/font/gilroy/Gilroy-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Thin";
+  src: url("/font/gilroy/Gilroy-Thin.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-UltraLight";
+  src: url("/font/gilroy/Gilroy-UltraLight.ttf");
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    width: 100%;
+    margin: auto;
+    width: 1350px;
+    position: static;
+    overflow: hidden;
+  }
+  header .logo-img img {
+    width: 100px;
+  }
+  header .header-container {
+    margin-top: 100px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .header-container .hdr-ctn-left {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  header .header-container .hdr-ctn-left .title .p-header {
+    width: 1350px;
+    font-size: 100px;
+  }
+  header .header-container .hdr-ctn-left .title .p-child {
+    font-size: 30px;
+    width: 1000px;
+    line-height: normal;
+  }
+  header .header-container .hdr-ctn-left button {
+    width: 80%;
+    padding: 35px 0;
+    font-size: 40px;
+    margin: 90px 0px;
+  }
+  header .header-container .hdr-ctn-right {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  header .header-container .hdr-ctn-right img {
+    width: 1000px;
+  }
+  main .what-we-do {
+    display: block;
+    margin-top: 90px;
+  }
+  main .what-we-do .title-wwd {
+    margin-bottom: 130px;
+  }
+  main .what-we-do .title-wwd h1 {
+    text-align: center;
+    font-size: 60px;
+    position: static;
+    width: 100%;
+    line-height: normal;
+  }
+  main .what-we-do .content-wwd {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: static;
+    margin: 1300px 0 480px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  main .what-we-do .content-wwd .box-1 {
+    width: 900px;
+    padding: 40px;
+    height: 2000px;
+    -webkit-box-shadow: 5px 20px 50px 0px rgba(16, 112, 177, 0.2);
+            box-shadow: 5px 20px 50px 0px rgba(16, 112, 177, 0.2);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 10px;
+  }
+  main .what-we-do .content-wwd .box-1 .bring-tek {
+    margin: auto;
+    position: relative;
+    left: 20%;
+  }
+  main .what-we-do .content-wwd .box-1 .makenbuild {
+    margin: auto;
+    max-width: 100%;
+    position: relative;
+    left: 10%;
+    padding: 10px 0 86px;
+  }
+  main .what-we-do .content-wwd .box-1 .title-box {
+    color: #1F3F68;
+    letter-spacing: 0.05em;
+    font-size: 45px;
+    line-height: normal;
+    margin-bottom: 30px;
+    font-family: "Gilroy-Medium";
+  }
+  main .what-we-do .content-wwd .box-1 .body-box {
+    color: rgba(31, 63, 104, 0.6);
+    margin-top: 16px;
+    letter-spacing: 0.05em;
+    font-family: "Gilroy-Regular";
+    font-size: 30px;
+    line-height: normal;
+    margin-bottom: 80px;
+  }
+  main .what-we-do .content-wwd .box-1 .link-box {
+    margin-top: 32px;
+    margin-bottom: 38px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  main .what-we-do .content-wwd .box-1 .link-box a {
+    font-size: 40px;
+    color: #5A98D0;
+    margin: auto;
+  }
+  main .what-we-do .content-wwd .box-1 .link-box a span {
+    margin-left: 10px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  main .what-we-do .content-wwd .box-1 .link-box a:hover span {
+    margin-left: 40px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  main .what-we-do .content-wwd .box-1 img {
+    width: 400px;
+  }
+  main .what-we-do .content-wwd .box-2 {
+    width: 900px;
+    padding: 40px;
+    height: 2000px;
+    -webkit-box-shadow: 5px 20px 50px 0px rgba(16, 112, 177, 0.2);
+            box-shadow: 5px 20px 50px 0px rgba(16, 112, 177, 0.2);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 10px;
+    position: static;
+    margin-top: 100px;
+  }
+  main .what-we-do .content-wwd .box-2 .bring-tek {
+    margin: auto;
+    position: relative;
+    left: 20%;
+  }
+  main .what-we-do .content-wwd .box-2 .makenbuild {
+    margin: auto;
+    max-width: 100%;
+    position: relative;
+    left: 10%;
+    padding: 10px 0 86px;
+  }
+  main .what-we-do .content-wwd .box-2 .title-box {
+    color: #1F3F68;
+    letter-spacing: 0.05em;
+    font-size: 45px;
+    line-height: normal;
+    margin-bottom: 30px;
+    font-family: "Gilroy-Medium";
+  }
+  main .what-we-do .content-wwd .box-2 .body-box {
+    color: rgba(31, 63, 104, 0.6);
+    margin-top: 16px;
+    letter-spacing: 0.05em;
+    font-family: "Gilroy-Regular";
+    font-size: 30px;
+    line-height: normal;
+    margin-bottom: 80px;
+  }
+  main .what-we-do .content-wwd .box-2 .link-box {
+    margin-top: 32px;
+    margin-bottom: 38px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  main .what-we-do .content-wwd .box-2 .link-box a {
+    font-size: 40px;
+    color: #5A98D0;
+    margin: auto;
+  }
+  main .what-we-do .content-wwd .box-2 .link-box a span {
+    margin-left: 10px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  main .what-we-do .content-wwd .box-2 .link-box a:hover span {
+    margin-left: 40px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  main .what-we-do .content-wwd .box-2 img {
+    width: 400px;
+  }
+  main .what-we-do .content-wwd .box-3 {
+    width: 900px;
+    padding: 40px;
+    height: 2000px;
+    -webkit-box-shadow: 5px 20px 50px 0px rgba(16, 112, 177, 0.2);
+            box-shadow: 5px 20px 50px 0px rgba(16, 112, 177, 0.2);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 10px;
+  }
+  main .what-we-do .content-wwd .box-3 .bring-tek {
+    margin: auto;
+    position: relative;
+    left: 20%;
+  }
+  main .what-we-do .content-wwd .box-3 .makenbuild {
+    margin: auto;
+    max-width: 100%;
+    position: relative;
+    left: 10%;
+    padding: 10px 0 86px;
+  }
+  main .what-we-do .content-wwd .box-3 .title-box {
+    color: #1F3F68;
+    letter-spacing: 0.05em;
+    font-size: 45px;
+    line-height: normal;
+    margin-bottom: 30px;
+    font-family: "Gilroy-Medium";
+  }
+  main .what-we-do .content-wwd .box-3 .body-box {
+    color: rgba(31, 63, 104, 0.6);
+    margin-top: 16px;
+    letter-spacing: 0.05em;
+    font-family: "Gilroy-Regular";
+    font-size: 30px;
+    line-height: normal;
+    margin-bottom: 80px;
+  }
+  main .what-we-do .content-wwd .box-3 .link-box {
+    margin-top: 32px;
+    margin-bottom: 38px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  main .what-we-do .content-wwd .box-3 .link-box a {
+    font-size: 40px;
+    color: #5A98D0;
+    margin: auto;
+  }
+  main .what-we-do .content-wwd .box-3 .link-box a span {
+    margin-left: 10px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  main .what-we-do .content-wwd .box-3 .link-box a:hover span {
+    margin-left: 40px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  main .what-we-do .content-wwd .box-3 img {
+    width: 400px;
+  }
+  main .our-project .title-our {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  main .our-project .title-our .main-title-our h1 {
+    color: #316099;
+    font-size: 60px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    line-height: normal;
+    letter-spacing: 0.05em;
+    font-family: "Gilroy-SemiBold";
+    margin-bottom: 30px;
+  }
+  main .our-project .title-our .sub-title-our {
+    width: 100%;
+    font-size: 30px;
+    line-height: normal;
+  }
+  main .our-project .content-our .smart {
+    height: 450px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  main .our-project .content-our .smart .parent {
+    color: white;
+    font-family: "Gilroy-Regular";
+    font-size: 40px;
+  }
+  main .our-project .content-our .smart .bocil {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Gilroy-UltraLight";
+    font-size: 24px;
+  }
+  main .our-project .content-our .under-smart .sparklite {
+    height: 450px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  main .our-project .content-our .under-smart .sparklite .parent {
+    color: white;
+    font-family: "Gilroy-Regular";
+    font-size: 40px;
+  }
+  main .our-project .content-our .under-smart .sparklite .bocil {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Gilroy-UltraLight";
+    font-size: 24px;
+  }
+  main .our-project .content-our .under-smart .car {
+    height: 450px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  main .our-project .content-our .under-smart .car .parent {
+    color: white;
+    font-family: "Gilroy-Regular";
+    font-size: 40px;
+  }
+  main .our-project .content-our .under-smart .car .bocil {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Gilroy-UltraLight";
+    font-size: 24px;
+  }
+  main .our-client {
+    height: 3630px;
+  }
+  main .our-client .title-client {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  main .our-client .title-client .main-title-client p {
+    color: white;
+    width: 100%;
+    font-size: 60px;
+    line-height: normal;
+    text-align: center;
+    letter-spacing: 0.05em;
+    font-family: "Gilroy-SemiBold";
+    margin-bottom: 20px;
+  }
+  main .our-client .title-client .sub-title-client {
+    width: 100%;
+    font-size: 30px;
+    line-height: normal;
+  }
+  main .our-client .content-client .client-1 {
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+    font-size: 18px;
+    color: white;
+    font-family: "Gilroy-Regular";
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+  }
+  main .our-client .content-client .client-1 img {
+    width: 180px;
+    margin-bottom: 24px;
+  }
+  main .our-client .content-client .client-1 p {
+    font-size: 30px;
+  }
+  main .our-client .content-client .client-1:hover {
+    background-color: rgba(53, 110, 173, 0.4);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  main .our-client .content-client .client-1:hover img,
+  main .our-client .content-client .client-1:hover p {
+    opacity: 0.2;
+  }
+  main .our-client .content-client .client-1:hover .response {
+    display: block;
+    font-style: italic;
+    z-index: 999;
+    position: relative;
+    top: 50px;
+    font-size: 30px;
+  }
+  main .our-client .content-client .client-1 .response {
+    display: none;
+  }
+  main .our-client .content-client .client-2 {
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+    font-size: 18px;
+    color: white;
+    font-family: "Gilroy-Regular";
+    border-bottom: 1px solid white;
+    border-right: none;
+  }
+  main .our-client .content-client .client-2 img {
+    width: 180px;
+    margin-bottom: 24px;
+  }
+  main .our-client .content-client .client-2 p {
+    font-size: 30px;
+  }
+  main .our-client .content-client .client-2:hover {
+    background-color: rgba(53, 110, 173, 0.4);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  main .our-client .content-client .client-2:hover img,
+  main .our-client .content-client .client-2:hover p {
+    opacity: 0.2;
+  }
+  main .our-client .content-client .client-2:hover .response {
+    display: block;
+    font-style: italic;
+    z-index: 999;
+    position: relative;
+    top: 50px;
+    font-size: 30px;
+  }
+  main .our-client .content-client .client-2 .response {
+    display: none;
+  }
+  main .our-client .content-client .client-3 {
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+    font-size: 18px;
+    color: white;
+    font-family: "Gilroy-Regular";
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+  }
+  main .our-client .content-client .client-3 img {
+    width: 180px;
+    margin-bottom: 24px;
+  }
+  main .our-client .content-client .client-3 p {
+    font-size: 30px;
+  }
+  main .our-client .content-client .client-3:hover {
+    background-color: rgba(53, 110, 173, 0.4);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  main .our-client .content-client .client-3:hover img,
+  main .our-client .content-client .client-3:hover p {
+    opacity: 0.2;
+  }
+  main .our-client .content-client .client-3:hover .response {
+    display: block;
+    font-style: italic;
+    z-index: 999;
+    position: relative;
+    top: 50px;
+    font-size: 30px;
+  }
+  main .our-client .content-client .client-3 .response {
+    display: none;
+  }
+  main .our-client .content-client .client-4 {
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+    font-size: 18px;
+    color: white;
+    font-family: "Gilroy-Regular";
+    border-bottom: 1px solid white;
+  }
+  main .our-client .content-client .client-4 img {
+    width: 180px;
+    margin-bottom: 24px;
+  }
+  main .our-client .content-client .client-4 p {
+    font-size: 30px;
+  }
+  main .our-client .content-client .client-4:hover {
+    background-color: rgba(53, 110, 173, 0.4);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  main .our-client .content-client .client-4:hover img,
+  main .our-client .content-client .client-4:hover p {
+    opacity: 0.2;
+  }
+  main .our-client .content-client .client-4:hover .response {
+    display: block;
+    font-style: italic;
+    z-index: 999;
+    position: relative;
+    top: 50px;
+    font-size: 30px;
+  }
+  main .our-client .content-client .client-4 .response {
+    display: none;
+  }
+  main .our-client .content-client .client-5 {
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+    font-size: 18px;
+    color: white;
+    font-family: "Gilroy-Regular";
+    border-right: 1px solid white;
+  }
+  main .our-client .content-client .client-5 img {
+    width: 180px;
+    margin-bottom: 24px;
+  }
+  main .our-client .content-client .client-5 p {
+    font-size: 30px;
+  }
+  main .our-client .content-client .client-5:hover {
+    background-color: rgba(53, 110, 173, 0.4);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  main .our-client .content-client .client-5:hover img,
+  main .our-client .content-client .client-5:hover p {
+    opacity: 0.2;
+  }
+  main .our-client .content-client .client-5:hover .response {
+    display: block;
+    font-style: italic;
+    z-index: 999;
+    position: relative;
+    top: 50px;
+    font-size: 30px;
+  }
+  main .our-client .content-client .client-5 .response {
+    display: none;
+  }
+  main .our-client .content-client .client-6 {
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+    font-size: 18px;
+    color: white;
+    font-family: "Gilroy-Regular";
+    border-right: none;
+  }
+  main .our-client .content-client .client-6 img {
+    width: 180px;
+    margin-bottom: 24px;
+  }
+  main .our-client .content-client .client-6 p {
+    font-size: 30px;
+  }
+  main .our-client .content-client .client-6:hover {
+    background-color: rgba(53, 110, 173, 0.4);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  main .our-client .content-client .client-6:hover img,
+  main .our-client .content-client .client-6:hover p {
+    opacity: 0.2;
+  }
+  main .our-client .content-client .client-6:hover .response {
+    display: block;
+    font-style: italic;
+    z-index: 999;
+    position: relative;
+    top: 50px;
+    font-size: 30px;
+  }
+  main .our-client .content-client .client-6 .response {
+    display: none;
+  }
+  main .our-client .content-client .client-7 {
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+    font-size: 18px;
+    color: white;
+    font-family: "Gilroy-Regular";
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+  }
+  main .our-client .content-client .client-7 img {
+    width: 180px;
+    margin-bottom: 24px;
+  }
+  main .our-client .content-client .client-7 p {
+    font-size: 30px;
+  }
+  main .our-client .content-client .client-7:hover {
+    background-color: rgba(53, 110, 173, 0.4);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  main .our-client .content-client .client-7:hover img,
+  main .our-client .content-client .client-7:hover p {
+    opacity: 0.2;
+  }
+  main .our-client .content-client .client-7:hover .response {
+    display: block;
+    font-style: italic;
+    z-index: 999;
+    position: relative;
+    top: 50px;
+    font-size: 30px;
+  }
+  main .our-client .content-client .client-7 .response {
+    display: none;
+  }
+  main .our-client .content-client a {
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+    font-size: 18px;
+    color: white;
+    font-family: "Gilroy-Regular";
+    border-top: 1px solid white;
+    background-color: rgba(31, 63, 104, 0.2);
+  }
+  main .our-client .content-client a img {
+    width: 180px;
+    margin-bottom: 24px;
+  }
+  main .our-client .content-client a p {
+    font-size: 30px;
+  }
+  main .our-client .content-client a:hover {
+    background-color: rgba(53, 110, 173, 0.4);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  main .our-client .content-client a:hover img,
+  main .our-client .content-client a:hover p {
+    opacity: 0.2;
+  }
+  main .our-client .content-client a:hover .response {
+    display: block;
+    font-style: italic;
+    z-index: 999;
+    position: relative;
+    top: 50px;
+    font-size: 30px;
+  }
+  main .our-client .content-client a p {
+    font-size: 30px;
+    line-height: 250px;
+  }
+  main .our-client .content-client a .response {
+    display: none;
+  }
+  main .our-client .content-client a .response i {
+    font-size: 80px;
+  }
+  main .our-client footer .interested {
+    margin-top: 1100px;
+  }
+  main .our-client footer .interested .title-interest {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .our-client footer .interested .title-interest .text-title-interest .main-title-interest {
+    color: white;
+    width: 100%;
+    font-size: 60px;
+    line-height: normal;
+    text-align: center;
+    letter-spacing: 0.05em;
+    font-family: "Gilroy-SemiBold";
+    margin-bottom: 20px;
+  }
+  main .our-client footer .interested .title-interest .text-title-interest .sub-title-interest {
+    width: 100%;
+    font-size: 30px;
+    line-height: normal;
+    text-align: center;
+  }
+  main .our-client footer .interested .title-interest .btn-title-interest {
+    margin-top: 60px;
+  }
+  main .our-client footer .interested .title-interest .btn-title-interest button {
+    width: 100%;
+    padding: 24px 200px;
+    font-size: 40px;
+    letter-spacing: 0.05em;
+  }
+  main .our-client footer .interested .info-footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  main .our-client footer .interested .info-footer .afrianska .title-afrianska img {
+    width: 110px;
+  }
+  main .our-client footer .interested .info-footer .afrianska .title-afrianska h4 {
+    font-size: 50px;
+  }
+  main .our-client footer .interested .info-footer .afrianska ul {
+    font-size: 26px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+  }
+  main .our-client footer .interested .info-footer .afrianska ul li {
+    width: 90%;
+  }
+  main .our-client footer .interested .info-footer .aboutfollow {
+    margin-top: 50px;
+  }
+  main .our-client footer .interested .info-footer .aboutfollow h4 {
+    margin-bottom: 34px;
+    font-size: 40px;
+    letter-spacing: 0.05em;
+  }
+  main .our-client footer .interested .info-footer .aboutfollow ul li {
+    font-size: 30px;
+    margin-bottom: 16px;
+    letter-spacing: 0.05em;
+  }
+  main .our-client footer .interested .info-footer .aboutfollow ul li a {
+    font-family: "Gilroy-Regular";
+    color: white;
+  }
+  main .our-client footer .interested .copyright {
+    font-size: 30px;
+    text-align: center;
+    line-height: normal;
+    letter-spacing: 0.05em;
+    margin-top: 84px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
